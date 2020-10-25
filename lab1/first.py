@@ -18,7 +18,7 @@
 
 
 easy_pace = 8*1
-tempo = 6*3
+tempo = 6*3 
 easy_pace_again = 8*2
 total_minutes = easy_pace+easy_pace_again+tempo
 minutes = (52 + total_minutes) - 60
