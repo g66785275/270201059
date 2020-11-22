@@ -4,11 +4,11 @@ second = 1
 third = 2
 for q in range(a):
   if a == 1 or a == 2:
-    print(1)
+    third = 1
     break
   elif a ==3:
-    print(2)
-    break
+    pass
+    
   else:
     third1 = third
     third = third + second
