@@ -8,10 +8,9 @@ for q in range(a):
     break
   elif a ==3:
     pass
-    
-  else:
-    third1 = third
-    third = third + second
-    second = third1
+for _ in range(a-3):
+  third1 = third
+  third = third + second
+  second = third1
 print(third)
 
