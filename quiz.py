@@ -1,11 +1,10 @@
-a =input("Please enter your name:")
-for q in a:
-  print(a)
-while True:
-  b = input("Please enter any string ("quit" to quit):")
-  c = ""
-  if b == "quit":
-    print(c)
-    break
-  else:
-    c += b
+file = 'members.txt
+a = open(file,"r")
+lines = a.readline()
+dicti = dict()
+while lines != "":
+    name = lines.split(":")
+    dicti[name[0]] = lines
+    lines = a.readline()
+    if lines == "":
+      break
