@@ -9,7 +9,7 @@ def is_prime(a):
     return False
   else:
     return True
-
+  
 def is_prime_between(q,w):
   for a in range(min(q,w)+1,max(q,w)):
     if is_prime(a) == True  :
