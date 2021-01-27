@@ -5,5 +5,6 @@ for q in nums:
   number += q
 print(number)
 
+#sum(nums)
 
 
