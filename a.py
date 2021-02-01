@@ -8,3 +8,6 @@ while lines != "":
     lines = a.readline()
     if lines == "":
       break
+
+
+      
